@@ -131,36 +131,36 @@ for key in keyCandidate:
     dCandidate.add(findD(key))
 print("d Candidates: " + str(dCandidate))
 
+DISTANCE = int(input("distancd: "))
 #find 빈도수가 가장 많은 암호 문자를 e라고 볼 것
-# 세로로 나열한 암호문값값
-printC(5)
+# 세로로 나열한 암호문값
+#printC(DISTANCE)
 print()
-#각 열의 빈도수가 높은 순으로 딕셔너리 나열열
-for i in range(5):
-    print(i+1, ":\n", str(countAlpha(5,i+1)), end='\n\n')
-
+#각 열의 빈도수가 높은 순으로 딕셔너리 나열
+for i in range(DISTANCE):
+    print(i+1, ":\n", str(list(countAlpha(DISTANCE,i+1).items())[:4]), end='\n\n')
+#영어 알파벳 빈도표
+ENGLISH_FREQ = {
+    'A': 0.082, 'B': 0.015, 'C': 0.028, 'D': 0.043, 'E': 0.127,
+    'F': 0.022, 'G': 0.020, 'H': 0.061, 'I': 0.070, 'J': 0.002,
+    'K': 0.008, 'L': 0.040, 'M': 0.024, 'N': 0.067, 'O': 0.075,
+    'P': 0.019, 'Q': 0.001, 'R': 0.060, 'S': 0.063, 'T': 0.091,
+    'U': 0.028, 'V': 0.010, 'W': 0.023, 'X': 0.001, 'Y': 0.020, 'Z': 0.001
+}
 
 #---------------- real test ---------------
 #e t a o i n s h r
 resultList=[]
 
-DISTANCE = 50
-C_ALPHA = 'T'
-
 for i in range(DISTANCE):
     llst=countAlpha(DISTANCE,i+1)
     keyList = sorted(llst.items(), key=lambda x:x[1], reverse=True)
     Cs = keyList[0][0]
+    C_ALPHA = input("C_Alpha: ")
     resultList.append((ord(Cs)-ord(C_ALPHA))%26)
 
 for n in resultList:
     print(chr(n+ord('A')), end=" ")
 print()
 
-origin(resultList, 5)
-
-
-
-
-    
-
+origin(resultList, DISTANCE)
