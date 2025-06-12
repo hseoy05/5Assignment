@@ -1,8 +1,14 @@
 import re
 from collections import defaultdict
+from collections import Counter
 
 s ="BCBCCLBSTGIGSRATCXRKEIOBVFSHNCERSRURQKBGDWMMHWSBGPXGKLFJCVGFZTIGVJFONWKODGQEHRPQLURMWKHRCVNSXRKVHRAGEHEPAZBDFGPSKPUWCVJQNWXEMFFOYUCWLCTRHSMPWFYKLRDKLGJSBSNVWXLKESDCGETYPVPTSTGKVOGPJHSRWKWYLVIOXQHFFWCFWFYKCJAKJNTCVJGXSSLVFOPSNCTVCFXSNSPZJOPUZHIYFUWXEPLAOPQLGPYELZDGGJOXBIIONSCKSCAJFCVQVFAOCVKVOETFKSLIESOBUFTKLGNZIGPUSZCPUSXRPRHSMPSMDFGDWNAGEHEPABCBCCLBSTGIGSRAYONCUKOLJKJVOBEFZVCIVGYDNRKWCFZQSLGVBQGPVSBGPXOXBDLGSLGJGKBOZBSQVIODGQEOWMPXCDFGIGDFGJSXCYGFYETRACLQKCXJARHDPCTHOBCSFYYFVFCRWUSXRDFRIDTFAKATFGCRJVDOLKEGEJCSIDYNJCVYKUHRCIICELFNCBIHFFDFGLBSTGIGSRAJTERWISKQCEODGQEOVJGRROPKEFOQGRFMFCERZPQWSCQKFBKJVIOSLKEU"
 l = len(s)
+
+#찾아본 결과: 우연히 rarra 돌려봤는데 korea 로 시작할거같아 끼워맞춰봄 ㅎ
+#ROKYC
+#KOREAUNIVERSITYCONTINUEDTOEXPANDITSACADEMICOFFERINGSANDSOLIDIFYITSREPUTATIONTHROUGHOUTTHETWENTIETHCENTURYINTHEYEARSFOLLOWINGKOREASLIBERATIONFROMJAPANESERULEINNINETEENFORTYFIVETHEINSTITUTIONTRANSFORMEDFROMASMALLCOLLEGEINTOAFULLFLEDGEDUNIVERSITYADDINGNUMEROUSFACULTIESANDGRADUATESCHOOLSTOMEETTHEGROWINGNEEDSOFANEWLYINDEPENDENTNATIONBYTHEMIDCENTURYKOREAUNIVERSITYHADESTABLISHEDCOLLEGESOFLAWMEDICINEENGINEERINGANDBUSINESSADMINISTRATIONAMONGOTHERSTHESENEWPROGRAMSNOTONLYATTRACTEDABROADERSTUDENTBODYFROMACROSSTHEPENINSULABUTALSOLAIDTHEGROUNDWORKFORTHEUNIVERSITYSFUTUREASANATIONALLEADERINRESEARCHANDPROFESSIONALTRAINING
+#_------------
 
 #key 후보
 #LBSTGIGSRA
@@ -111,13 +117,15 @@ def countAlpha(d, n):
 #----------------------------------------------
 
 #------------ 복호화 function -----------------------------
-def origin(Elist, num):
+def origin(keyShifts):
+    result=""
     for i in range(l):
+        shift = keyShifts[i%len(keyShifts)]
         c = s[i]
-        M = chr((ord(c) - Elist[i%num]+26)%26+ord('A'))
-        print(M, end="")
+        M = chr( (ord(c) - ord('A')-shift) % 26 + ord('A'))
+        result+=M
+    return result
 #----------------------------------------------------------
-
 
 
 
@@ -131,7 +139,7 @@ for key in keyCandidate:
     dCandidate.add(findD(key))
 print("d Candidates: " + str(dCandidate))
 
-DISTANCE = int(input("distancd: "))
+DISTANCE = 5
 #find 빈도수가 가장 많은 암호 문자를 e라고 볼 것
 # 세로로 나열한 암호문값
 #printC(DISTANCE)
@@ -139,28 +147,33 @@ print()
 #각 열의 빈도수가 높은 순으로 딕셔너리 나열
 for i in range(DISTANCE):
     print(i+1, ":\n", str(list(countAlpha(DISTANCE,i+1).items())[:4]), end='\n\n')
-#영어 알파벳 빈도표
-ENGLISH_FREQ = {
-    'A': 0.082, 'B': 0.015, 'C': 0.028, 'D': 0.043, 'E': 0.127,
-    'F': 0.022, 'G': 0.020, 'H': 0.061, 'I': 0.070, 'J': 0.002,
-    'K': 0.008, 'L': 0.040, 'M': 0.024, 'N': 0.067, 'O': 0.075,
-    'P': 0.019, 'Q': 0.001, 'R': 0.060, 'S': 0.063, 'T': 0.091,
-    'U': 0.028, 'V': 0.010, 'W': 0.023, 'X': 0.001, 'Y': 0.020, 'Z': 0.001
-}
 
+#암호화 문 내에 등장한 알파벳 빈도 비율 구하기
+def letterPercentage(string):
+    total = l//DISTANCE
+    counter = Counter(string)
+    freqDict={}
+    for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        freqDict[c] = round((counter.get(c,0)/total), 2)
+    return  dict(sorted(freqDict.items(), key=lambda item: item[1], reverse=True))
+
+columnRatePercent=[]
+for i in range(DISTANCE):
+    columnText = ''.join([s[j] for j in range(i, l, 5)])
+    columnRatePercent.append(letterPercentage(columnText))
+
+for i in range(DISTANCE):
+    print(str(i+1), ": ", list(columnRatePercent[i].items())[:4])
 #---------------- real test ---------------
 #e t a o i n s h r
 resultList=[]
 
-for i in range(DISTANCE):
-    llst=countAlpha(DISTANCE,i+1)
-    keyList = sorted(llst.items(), key=lambda x:x[1], reverse=True)
-    Cs = keyList[0][0]
-    C_ALPHA = input("C_Alpha: ")
-    resultList.append((ord(Cs)-ord(C_ALPHA))%26)
-
-for n in resultList:
-    print(chr(n+ord('A')), end=" ")
+C_ALPHA = input("C_Alpha: ").strip().upper()
+if len(C_ALPHA)!= DISTANCE:
+    print("키 길이 오류")
+    exit()
+resultList=[(ord(c) - ord('A')) for c in C_ALPHA]
 print()
 
-origin(resultList, DISTANCE)
+print("shift list: ", resultList)
+print(origin(resultList))
