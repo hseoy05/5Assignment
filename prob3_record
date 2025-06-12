@@ -1,0 +1,960 @@
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+
+===========================================================================
+
+
+End Program?[Y/n] n 
+
+
+===========================================================================
+Attempt 56
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #56
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  re  zpmft l udavn cibhs 
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfi-ure-ftrumpismandhisfacti-nisd-minant-ithintherepublicanpart-man--fhisc-mmentsandacti-nshavebeencharacterizedasracist-rmis---nisticandhehasmadefalseandmisleadin-statementsandpr-m-tedc-nspirac-the-riest-ade-reeunprecedentedinamericanp-liticstrumpsacti-nsespeciall-inhissec-ndtermhavebeendescribedasauth-ritarianandc-ntributin-t-dem-craticbac-slidin-afterhisfirsttermsch-larsandhist-riansran-edhimas-ne-fthe--rstpresidentsinamericanhist-r-
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfiZureTftrumpismandhisfactiTnisdTminantFithintherepublicanpartAmanATfhiscTmmentsandactiTnshavebeencharacterizedasracistTrmisTZAnisticandhehasmadefalseandmisleadinZstatementsandprTmTtedcTnspiracAtheTriestTadeZreeunprecedentedinamericanpTliticstrumpsactiTnsespeciallAinhissecTndtermhavebeendescribedasauthTritarianandcTntributinZtTdemTcraticbacNslidinZafterhisfirsttermschTlarsandhistTriansranNedhimasTneTftheFTrstpresidentsinamericanhistTrA (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+T : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+A Z b : 1.32% - 6
+F N v : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+Tn ac en er te ti : 1.54% - 7
+Tr de ed ic ra th : 1.32% - 6
+he re sa tT tr : 1.1% - 5
+ar as cT ca ct dh ec es ha ma me na ns : 0.88% - 4
+Tf Tm ad al be da di eT ee ft iT ia it li mi mp nZ np pi pr rm rs ru sc se ts um : 0.66% - 3
+Tl am at av ce ch ci cr dc ea eb em fa fi hT ib id ir mT nh ni sT sf si sl sm sp sr ta ut ve : 0.44% - 2
+AT Ai Am An At FT Fi Ne Ns TZ Ta Tc Td Tt ZA Za Zr Zs Zt Zu af au ba bl bu cA cN cb cs dT dm dp dt eF eZ ef eh ep eu fh iZ ie im iz lA la le lf ll ls mh mm ms nA nN nc ne pT pa pe ps pu rA rT rh rt sd sh ss tA tF tp tt ub un ur ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica stT ter the : 0.88% - 4
+Tns Tri cTn cti dhi din eri iTn inZ ina ndh nts rac rum san tTr tiT tic tru ump : 0.66% - 3
+Tft ade ame anp ave bee das dcT den eTf ebe ece eda een erm hav ian isf man men mer mis mpi nam nan nhi nis ntr pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+ATf Ain Ama Ani Ath FTr Fit Ned Nsl TZA Tad Tcr Tde Tfh Tla Tli TmT Tmi Tmm Tnd Tne Tni Tnt TrA Trm Trs Tte ZAn Zaf Zre Zst ZtT Zur acA acN aci adi aft alf all als anA anN ana anh ans ant ara ari ars art asT asa asm asr ate ati aut bac bed bli but cAt cNs cTm cba ced cen chT cha cia cis cra cri cst cte dTm dac deZ def dem des dhe dmi dpr dte eFT eTr eZr ead ean ecT eci edc ede edh edi eeu efa eha emT eme enc end epu ere erh esc esi esp est eun fac fal fhi fiZ fir fte fth ftr hTl hTr har has heF heT hec heh her him hin iZu ial ibe ibu icb ics ide idi ies ima inh int ira irs isT isc isd isl ism iss ita ith iti ize lAi lar lea lfi lic lid lit llA lse mTc mTt mad mas mha min mme mps msc nAT nNe nZa nZs nZt nch nda ndc nde ndm ndp ndt neT npT npa npr nse nsh nsp nsr ntF nte nth pTl par pec pir prT psa pub rTm ral ran rat reT rec ree rep res rhi rie rit riz rmh rmi rms rsa rtA sTZ sTn sac sau scT sch scr sdT sea sec ses sfa sfi sha sid sin sle sli spe spi sse sta sth sti stp str stt tAm tFi tTa tTd tar tat tem thT thi tin tpr tra tri tsi tte ubl unp ure uth uti zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdj-xv--mis-h-cykor---g
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+--re--zpmft-l-udavn-cibhs-
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+
+===========================================================================
+
+
+End Program?[Y/n] n
+
+
+===========================================================================
+Attempt 57
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #57
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  re  zpmft l udavn cibhsg
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfigure-ftrumpismandhisfacti-nisd-minant-ithintherepublicanpart-man--fhisc-mmentsandacti-nshavebeencharacterizedasracist-rmis-g-nisticandhehasmadefalseandmisleadingstatementsandpr-m-tedc-nspirac-the-riest-adegreeunprecedentedinamericanp-liticstrumpsacti-nsespeciall-inhissec-ndtermhavebeendescribedasauth-ritarianandc-ntributingt-dem-craticbac-slidingafterhisfirsttermsch-larsandhist-riansran-edhimas-ne-fthe--rstpresidentsinamericanhist-r-
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfigureTftrumpismandhisfactiTnisdTminantFithintherepublicanpartAmanATfhiscTmmentsandactiTnshavebeencharacterizedasracistTrmisTgAnisticandhehasmadefalseandmisleadingstatementsandprTmTtedcTnspiracAtheTriestTadegreeunprecedentedinamericanpTliticstrumpsactiTnsespeciallAinhissecTndtermhavebeendescribedasauthTritarianandcTntributingtTdemTcraticbacNslidingafterhisfirsttermschTlarsandhistTriansranNedhimasTneTftheFTrstpresidentsinamericanhistTrA (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+T : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+A b g : 1.32% - 6
+F N v : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+Tn ac en er te ti : 1.54% - 7
+Tr de ed ic ra th : 1.32% - 6
+he re sa tT tr : 1.1% - 5
+ar as cT ca ct dh ec es ha ma me na ns : 0.88% - 4
+Tf Tm ad al be da di eT ee ft iT ia it li mi mp ng np pi pr rm rs ru sc se ts um : 0.66% - 3
+Tl am at av ce ch ci cr dc ea eb em fa fi hT ib id ir mT nh ni sT sf si sl sm sp sr ta ut ve : 0.44% - 2
+AT Ai Am An At FT Fi Ne Ns Ta Tc Td Tg Tt af au ba bl bu cA cN cb cs dT dm dp dt eF ef eg eh ep eu fh gA ga gr gs gt gu ie ig im iz lA la le lf ll ls mh mm ms nA nN nc ne pT pa pe ps pu rA rT rh rt sd sh ss tA tF tp tt ub un ur ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica stT ter the : 0.88% - 4
+Tns Tri cTn cti dhi din eri iTn ina ing ndh nts rac rum san tTr tiT tic tru ump : 0.66% - 3
+Tft ade ame anp ave bee das dcT den eTf ebe ece eda een erm hav ian isf man men mer mis mpi nam nan nhi nis ntr pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+ATf Ain Ama Ani Ath FTr Fit Ned Nsl Tad Tcr Tde Tfh TgA Tla Tli TmT Tmi Tmm Tnd Tne Tni Tnt TrA Trm Trs Tte acA acN aci adi aft alf all als anA anN ana anh ans ant ara ari ars art asT asa asm asr ate ati aut bac bed bli but cAt cNs cTm cba ced cen chT cha cia cis cra cri cst cte dTm dac def deg dem des dhe dmi dpr dte eFT eTr ead ean ecT eci edc ede edh edi eeu efa egr eha emT eme enc end epu ere erh esc esi esp est eun fac fal fhi fig fir fte fth ftr gAn gaf gre gst gtT gur hTl hTr har has heF heT hec heh her him hin ial ibe ibu icb ics ide idi ies igu ima inh int ira irs isT isc isd isl ism iss ita ith iti ize lAi lar lea lfi lic lid lit llA lse mTc mTt mad mas mha min mme mps msc nAT nNe nch nda ndc nde ndm ndp ndt neT nga ngs ngt npT npa npr nse nsh nsp nsr ntF nte nth pTl par pec pir prT psa pub rTm ral ran rat reT rec ree rep res rhi rie rit riz rmh rmi rms rsa rtA sTg sTn sac sau scT sch scr sdT sea sec ses sfa sfi sha sid sin sle sli spe spi sse sta sth sti stp str stt tAm tFi tTa tTd tar tat tem thT thi tin tpr tra tri tsi tte ubl unp ure uth uti zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdjzxv--mis-h-cykor---g
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+--re--zpmft-l-udavn-cibhsg
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+[55]  --re--zpmft-l-udavn-cibhsg
+
+===========================================================================
+
+
+End Program?[Y/n] n
+
+
+===========================================================================
+Attempt 58
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #58
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  re  zpmft l udavnocibhsg  
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfigureoftrumpismandhisfactionisdominant-ithintherepublicanpart-man-ofhiscommentsandactionshavebeencharacterizedasracistormisog-nisticandhehasmadefalseandmisleadingstatementsandpromotedconspirac-theoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciall-inhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbac-slidingafterhisfirsttermscholarsandhistoriansran-edhimasoneofthe-orstpresidentsinamericanhistor-
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantFithintherepublicanpartAmanAofhiscommentsandactionshavebeencharacterizedasracistormisogAnisticandhehasmadefalseandmisleadingstatementsandpromotedconspiracAtheoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciallAinhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbacNslidingafterhisfirsttermscholarsandhistoriansranNedhimasoneoftheForstpresidentsinamericanhistorA (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+o : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+A b g : 1.32% - 6
+F N v : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+ac en er on te ti : 1.54% - 7
+de ed ic or ra th : 1.32% - 6
+he re sa to tr : 1.1% - 5
+ar as ca co ct dh ec es ha ma me na ns : 0.88% - 4
+ad al be da di ee eo ft ia io it li mi mp ng np of om pi pr rm rs ru sc se ts um : 0.66% - 3
+am at av ce ch ci cr dc ea eb em fa fi ho ib id ir mo nh ni ol sf si sl sm so sp sr ta ut ve : 0.44% - 2
+Ai Am An Ao At Fi Fo Ne Ns af au ba bl bu cA cN cb cs dm do dp dt eF ef eg eh ep eu fh gA ga gr gs gt gu ie ig im iz lA la le lf ll ls mh mm ms nA nN nc ne oa oc od og ot pa pe po ps pu rA rh ro rt sd sh ss tA tF tp tt ub un ur ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica sto ter the : 0.88% - 4
+con cti dhi din eri ina ing ion ndh nts ons ori rac rum san tic tio tor tru ump : 0.66% - 3
+ade ame anp ave bee das dco den ebe ece eda een eof erm hav ian isf man men mer mis mpi nam nan nhi nis ntr oft pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+Ain Ama Ani Aof Ath Fit For Ned Nsl acA acN aci adi aft alf all als anA anN ana anh ans ant ara ari ars art asa asm aso asr ate ati aut bac bed bli but cAt cNs cba ced cen cha cho cia cis com cra cri cst cte dac def deg dem des dhe dmi dom dpr dte eFo ead ean eci eco edc ede edh edi eeu efa egr eha eme emo enc end eor epu ere erh esc esi esp est eun fac fal fhi fig fir fte fth ftr gAn gaf gre gst gto gur har has heF hec heh heo her him hin hol hor ial ibe ibu icb ics ide idi ies igu ima inh int ira irs isc isd isl ism iso iss ita ith iti ize lAi lar lea lfi lic lid lit llA lse mad mas mha min mme moc mot mps msc nAo nNe nch nda ndc nde ndm ndp ndt neo nga ngs ngt npa npo npr nse nsh nsp nsr ntF nte nth oad ocr ode ofh ogA ola oli omi omm omo ond one oni ont orA orm ors ote par pec pir pol pro psa pub ral ran rat rec ree reo rep res rhi rie rit riz rmh rmi rms rom rsa rtA sac sau sch sco scr sdo sea sec ses sfa sfi sha sid sin sle sli sog son spe spi sse sta sth sti stp str stt tAm tFi tar tat tem thi tho tin toa tod tpr tra tri tsi tte ubl unp ure uth uti zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdjzxv--misth-cykor---g
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+--re--zpmft-l-udavnocibhsg
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+[55]  --re--zpmft-l-udavn-cibhsg
+[56]  --re--zpmft-l-udavnocibhsg
+
+===========================================================================
+
+
+End Program?[Y/n] n
+
+
+===========================================================================
+Attempt 59
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #59
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  re wzpmft l udavnocibhsg
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpart-man-ofhiscommentsandactionshavebeencharacterizedasracistormisog-nisticandhehasmadefalseandmisleadingstatementsandpromotedconspirac-theoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciall-inhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbac-slidingafterhisfirsttermscholarsandhistoriansran-edhimasoneoftheworstpresidentsinamericanhistor-
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpartAmanAofhiscommentsandactionshavebeencharacterizedasracistormisogAnisticandhehasmadefalseandmisleadingstatementsandpromotedconspiracAtheoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciallAinhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbacNslidingafterhisfirsttermscholarsandhistoriansranNedhimasoneoftheworstpresidentsinamericanhistorA (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+o : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+A b g : 1.32% - 6
+N v w : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+ac en er on te ti : 1.54% - 7
+de ed ic or ra th : 1.32% - 6
+he re sa to tr : 1.1% - 5
+ar as ca co ct dh ec es ha ma me na ns : 0.88% - 4
+ad al be da di ee eo ft ia io it li mi mp ng np of om pi pr rm rs ru sc se ts um : 0.66% - 3
+am at av ce ch ci cr dc ea eb em fa fi ho ib id ir mo nh ni ol sf si sl sm so sp sr ta ut ve : 0.44% - 2
+Ai Am An Ao At Ne Ns af au ba bl bu cA cN cb cs dm do dp dt ef eg eh ep eu ew fh gA ga gr gs gt gu ie ig im iz lA la le lf ll ls mh mm ms nA nN nc ne oa oc od og ot pa pe po ps pu rA rh ro rt sd sh ss tA tp tt tw ub un ur wi wo ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica sto ter the : 0.88% - 4
+con cti dhi din eri ina ing ion ndh nts ons ori rac rum san tic tio tor tru ump : 0.66% - 3
+ade ame anp ave bee das dco den ebe ece eda een eof erm hav ian isf man men mer mis mpi nam nan nhi nis ntr oft pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+Ain Ama Ani Aof Ath Ned Nsl acA acN aci adi aft alf all als anA anN ana anh ans ant ara ari ars art asa asm aso asr ate ati aut bac bed bli but cAt cNs cba ced cen cha cho cia cis com cra cri cst cte dac def deg dem des dhe dmi dom dpr dte ead ean eci eco edc ede edh edi eeu efa egr eha eme emo enc end eor epu ere erh esc esi esp est eun ewo fac fal fhi fig fir fte fth ftr gAn gaf gre gst gto gur har has hec heh heo her hew him hin hol hor ial ibe ibu icb ics ide idi ies igu ima inh int ira irs isc isd isl ism iso iss ita ith iti ize lAi lar lea lfi lic lid lit llA lse mad mas mha min mme moc mot mps msc nAo nNe nch nda ndc nde ndm ndp ndt neo nga ngs ngt npa npo npr nse nsh nsp nsr nte nth ntw oad ocr ode ofh ogA ola oli omi omm omo ond one oni ont orA orm ors ote par pec pir pol pro psa pub ral ran rat rec ree reo rep res rhi rie rit riz rmh rmi rms rom rsa rtA sac sau sch sco scr sdo sea sec ses sfa sfi sha sid sin sle sli sog son spe spi sse sta sth sti stp str stt tAm tar tat tem thi tho tin toa tod tpr tra tri tsi tte twi ubl unp ure uth uti wit wor zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdjzxv--misth-cykorf--g
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+--re-wzpmft-l-udavnocibhsg
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+[55]  --re--zpmft-l-udavn-cibhsg
+[56]  --re--zpmft-l-udavnocibhsg
+[57]  --re-wzpmft-l-udavnocibhsg
+
+===========================================================================
+
+
+End Program?[Y/n] n
+
+
+===========================================================================
+Attempt 60
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #60
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  re wzpmft lkudavnocibhsg
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpart-man-ofhiscommentsandactionshavebeencharacterizedasracistormisog-nisticandhehasmadefalseandmisleadingstatementsandpromotedconspirac-theoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciall-inhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbackslidingafterhisfirsttermscholarsandhistoriansrankedhimasoneoftheworstpresidentsinamericanhistor-
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpartAmanAofhiscommentsandactionshavebeencharacterizedasracistormisogAnisticandhehasmadefalseandmisleadingstatementsandpromotedconspiracAtheoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciallAinhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbackslidingafterhisfirsttermscholarsandhistoriansrankedhimasoneoftheworstpresidentsinamericanhistorA (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+o : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+A b g : 1.32% - 6
+k v w : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+ac en er on te ti : 1.54% - 7
+de ed ic or ra th : 1.32% - 6
+he re sa to tr : 1.1% - 5
+ar as ca co ct dh ec es ha ma me na ns : 0.88% - 4
+ad al be da di ee eo ft ia io it li mi mp ng np of om pi pr rm rs ru sc se ts um : 0.66% - 3
+am at av ce ch ci cr dc ea eb em fa fi ho ib id ir mo nh ni ol sf si sl sm so sp sr ta ut ve : 0.44% - 2
+Ai Am An Ao At af au ba bl bu cA cb ck cs dm do dp dt ef eg eh ep eu ew fh gA ga gr gs gt gu ie ig im iz ke ks lA la le lf ll ls mh mm ms nA nc ne nk oa oc od og ot pa pe po ps pu rA rh ro rt sd sh ss tA tp tt tw ub un ur wi wo ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica sto ter the : 0.88% - 4
+con cti dhi din eri ina ing ion ndh nts ons ori rac rum san tic tio tor tru ump : 0.66% - 3
+ade ame anp ave bee das dco den ebe ece eda een eof erm hav ian isf man men mer mis mpi nam nan nhi nis ntr oft pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+Ain Ama Ani Aof Ath acA aci ack adi aft alf all als anA ana anh ank ans ant ara ari ars art asa asm aso asr ate ati aut bac bed bli but cAt cba ced cen cha cho cia cis cks com cra cri cst cte dac def deg dem des dhe dmi dom dpr dte ead ean eci eco edc ede edh edi eeu efa egr eha eme emo enc end eor epu ere erh esc esi esp est eun ewo fac fal fhi fig fir fte fth ftr gAn gaf gre gst gto gur har has hec heh heo her hew him hin hol hor ial ibe ibu icb ics ide idi ies igu ima inh int ira irs isc isd isl ism iso iss ita ith iti ize ked ksl lAi lar lea lfi lic lid lit llA lse mad mas mha min mme moc mot mps msc nAo nch nda ndc nde ndm ndp ndt neo nga ngs ngt nke npa npo npr nse nsh nsp nsr nte nth ntw oad ocr ode ofh ogA ola oli omi omm omo ond one oni ont orA orm ors ote par pec pir pol pro psa pub ral ran rat rec ree reo rep res rhi rie rit riz rmh rmi rms rom rsa rtA sac sau sch sco scr sdo sea sec ses sfa sfi sha sid sin sle sli sog son spe spi sse sta sth sti stp str stt tAm tar tat tem thi tho tin toa tod tpr tra tri tsi tte twi ubl unp ure uth uti wit wor zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdjzxv-nmisth-cykorf--g
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+--re-wzpmft-lkudavnocibhsg
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+[55]  --re--zpmft-l-udavn-cibhsg
+[56]  --re--zpmft-l-udavnocibhsg
+[57]  --re-wzpmft-l-udavnocibhsg
+[58]  --re-wzpmft-lkudavnocibhsg
+
+===========================================================================
+
+
+End Program?[Y/n] n
+
+
+===========================================================================
+Attempt 61
+===========================================================================
+
+
+Enter a Substitution Chart.
+    - 26 characters of lower case letters and '-' should be inputed
+    - Other characters except for lowercase letters are treated as '-'
+    - Enter 'exit' to end program
+
+
+CHART #61
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+y re wzpmft lkudavnocibhsg
+
+
+===========================================================================
+
+Original Cipertext :
+KCOIHVYKXDUDSKCQMJVZOCDTJKCOIHVYIQSPXVYJQUKVTSVYPTIVSQSKFVKXVSKXDCDHOWMVUQSHQCKAIQSATJXVYUTIIDSKYQSPQUKVTSYXQRDWDDSUXQCQUKDCVGDPQYCQUVYKTCIVYTZASVYKVUQSPXDXQYIQPDJQMYDQSPIVYMDQPVSZYKQKDIDSKYQSPHCTITKDPUTSYHVCQUAKXDTCVDYKTQPDZCDDOSHCDUDPDSKDPVSQIDCVUQSHTMVKVUYKCOIHYQUKVTSYDYHDUVQMMAVSXVYYDUTSPKDCIXQRDWDDSPDYUCVWDPQYQOKXTCVKQCVQSQSPUTSKCVWOKVSZKTPDITUCQKVUWQUNYMVPVSZQJKDCXVYJVCYKKDCIYUXTMQCYQSPXVYKTCVQSYCQSNDPXVIQYTSDTJKXDFTCYKHCDYVPDSKYVSQIDCVUQSXVYKTCA
+
+Substituted Text :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpartymanyofhiscommentsandactionshavebeencharacterizedasracistormisogynisticandhehasmadefalseandmisleadingstatementsandpromotedconspiracytheoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciallyinhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbackslidingafterhisfirsttermscholarsandhistoriansrankedhimasoneoftheworstpresidentsinamericanhistory
+
+
+Ciphertext Being Analyzed :
+trumpisthecentralfigureoftrumpismandhisfactionisdominantwithintherepublicanpartymanyofhiscommentsandactionshavebeencharacterizedasracistormisogynisticandhehasmadefalseandmisleadingstatementsandpromotedconspiracytheoriestoadegreeunprecedentedinamericanpoliticstrumpsactionsespeciallyinhissecondtermhavebeendescribedasauthoritarianandcontributingtodemocraticbackslidingafterhisfirsttermscholarsandhistoriansrankedhimasoneoftheworstpresidentsinamericanhistory (length(456))
+
+
+===========================================================================
+
+(1) Monogram:
+
+e i : 10.09% - 46
+a : 9.65% - 44
+n t : 8.55% - 39
+s : 8.33% - 38
+r : 7.24% - 33
+o : 5.7% - 26
+c : 5.26% - 24
+d : 4.82% - 22
+h m : 4.17% - 19
+p : 2.41% - 11
+l : 1.97% - 9
+f u : 1.75% - 8
+b g y : 1.32% - 6
+k v w : 0.44% - 2
+z : 0.22% - 1
+
+(2) Diagram:
+
+an : 3.3% - 15
+is : 2.86% - 13
+st : 2.2% - 10
+nd ri : 1.98% - 9
+hi in nt : 1.76% - 8
+ac en er on te ti : 1.54% - 7
+de ed ic or ra th : 1.32% - 6
+he re sa to tr : 1.1% - 5
+ar as ca co ct dh ec es ha ma me na ns : 0.88% - 4
+ad al be da di ee eo ft ia io it li mi mp ng np of om pi pr rm rs ru sc se ts um : 0.66% - 3
+am at av ce ch ci cr dc ea eb em fa fi ho ib id ir mo nh ni ol sf si sl sm so sp sr ta ut ve : 0.44% - 2
+af au ba bl bu cb ck cs cy dm do dp dt ef eg eh ep eu ew fh ga gr gs gt gu gy ie ig im iz ke ks la le lf ll ls ly mh mm ms nc ne nk ny oa oc od og ot pa pe po ps pu rh ro rt ry sd sh ss tp tt tw ty ub un ur wi wo yi ym yn yo yt ze : 0.22% - 1
+
+(3) Trigram:
+
+and : 1.54% - 7
+his : 1.32% - 6
+ent ist : 1.1% - 5
+act can ica sto ter the : 0.88% - 4
+con cti dhi din eri ina ing ion ndh nts ons ori rac rum san tic tio tor tru ump : 0.66% - 3
+ade ame anp ave bee das dco den ebe ece eda een eof erm hav ian isf man men mer mis mpi nam nan nhi nis ntr oft pis pre ria rib ric rst sma sra ted tsa veb : 0.44% - 2
+aci ack acy adi aft alf all als ana anh ank ans ant any ara ari ars art asa asm aso asr ate ati aut bac bed bli but cba ced cen cha cho cia cis cks com cra cri cst cte cyt dac def deg dem des dhe dmi dom dpr dte ead ean eci eco edc ede edh edi eeu efa egr eha eme emo enc end eor epu ere erh esc esi esp est eun ewo fac fal fhi fig fir fte fth ftr gaf gre gst gto gur gyn har has hec heh heo her hew him hin hol hor ial ibe ibu icb ics ide idi ies igu ima inh int ira irs isc isd isl ism iso iss ita ith iti ize ked ksl lar lea lfi lic lid lit lly lse lyi mad mas mha min mme moc mot mps msc nch nda ndc nde ndm ndp ndt neo nga ngs ngt nke npa npo npr nse nsh nsp nsr nte nth ntw nyo oad ocr ode ofh ogy ola oli omi omm omo ond one oni ont orm ors ory ote par pec pir pol pro psa pub ral ran rat rec ree reo rep res rhi rie rit riz rmh rmi rms rom rsa rty sac sau sch sco scr sdo sea sec ses sfa sfi sha sid sin sle sli sog son spe spi sse sta sth sti stp str stt tar tat tem thi tho tin toa tod tpr tra tri tsi tte twi tym ubl unp ure uth uti wit wor yin yma yni yof yth zed : 0.22% - 1
+
+===========================================================================
+
+
+
+===========================================================================
+
+[Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+qwupdjzxv-nmisth-cykorf-ag
+
+[Reversed Key Chart]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+y-re-wzpmft-lkudavnocibhsg
+
+[Input Chart Record]
+NUM  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[1]  ---e------------a----t----
+[2]  ---e------o-----a----t--i-
+[3]  ---e------o-----a--n-t--i-
+[4]  ---e------t-----a-s-----i-
+[5]  ---e------t-----a-sh----i-
+[6]  ---e------t-----a-shr---i-
+[7]  ---e------t-----a-s-----i-
+[8]  ---e------t-----a-s----hi-
+[9]  --re------t-----a-s----hi-
+[10]  --re------t-----a-s-d--hi-
+[11]  --re------t-----a-s-do-hi-
+[12]  --re------t----na-s-do-hi-
+[13]  --re------t-----a-s----hi-
+[14]  --re------t---u--a-s---hi-
+[15]  --re------t-----a-s----hi-
+[16]  --re------t-----a-s-c--hi-
+[17]  --re-----wt-----a-s-c--hi-
+[18]  --re------t-----a-s-cw-hi-
+[19]  --re------t-----a-s----hi-
+[20]  --re------t---u-a-s----hi-
+[21]  --re------t-----a-s----hi-
+[22]  --re------t-----a-s----h--
+[23]  --re------t-----a-s--i-h--
+[24]  --re------t-----a-s--i-hn-
+[25]  --re------t-y---a-s--i-hn-
+[26]  --re------t-----a-s-----i-
+[27]  --re------t-----a---------
+[28]  --re------t-----a------h--
+[29]  --re------t-----a---------
+[30]  --re------t-----a------h--
+[31]  --re------t-----a----o--h-
+[32]  --re------t-----a----o-h--
+[33]  --re------t-----a----o-hn-
+[34]  --re------t-----a------hn-
+[35]  --re------t-----a----i-hn-
+[36]  --re------t-----a-s--i-hn-
+[37]  --re------t-----a----i-hn-
+[38]  --re------t-----a----i-hn-
+[39]  --re------t---u-a----i-hn-
+[40]  --re---yl-t---u-a----i-hn-
+[41]  --re------t-----a----i-hn-
+[42]  --re------t-----av---i-hn-
+[43]  --re------t-----av---ibhn-
+[44]  --re------t-----avn---ibh-
+[45]  --re------t-----avn--ibh--
+[46]  --re------t-----avn---bn--
+[47]  --re------t-----avn---bh--
+[48]  --re------t-----avb-c-bh--
+[49]  --re------t-----avn-cibh--
+[50]  --re--z---t-----avn-cibh--
+[51]  --re--z---t----davn-cibh--
+[52]  --re--z---t----davn-cibhs-
+[53]  --re--z---t-l--davn-cibhs-
+[54]  --re--zpmft-l-udavn-cibhs-
+[55]  --re--zpmft-l-udavn-cibhsg
+[56]  --re--zpmft-l-udavnocibhsg
+[57]  --re-wzpmft-l-udavnocibhsg
+[58]  --re-wzpmft-lkudavnocibhsg
+[59]  y-re-wzpmft-lkudavnocibhsg
+
+===========================================================================
+
+
+End Program?[Y/n]
